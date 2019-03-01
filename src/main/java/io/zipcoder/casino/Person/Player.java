@@ -2,9 +2,8 @@ package io.zipcoder.casino.Person;
 
 public class Player extends Person {
 
-    public void pickGame() {
-    }
+    public Player(String name) {
 
-    public void walkAway() {
+        super(name);
     }
 }
